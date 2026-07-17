@@ -323,7 +323,6 @@ root = tk.Tk()
 root.title("")  # Remove window text
 root.geometry("560x500")
 root.resizable(True, True)
-root.iconbitmap("empty.png")  # Set window icon
 
 notebook = ttk.Notebook(root)
 notebook.pack(fill=tk.BOTH, expand=True, padx=10, pady=10)
